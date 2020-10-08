@@ -1,4 +1,6 @@
-let libgenUrl = 'http://libgen.rs/search.php?req={{TITLE}}&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def';
+var storageItem = browser.storage.managed.get('web');
+var    libgenUrl = 'http://gen.lib.rus.ec/fiction/?q={{TITLE}}';
+
 
 function createURL(title) {
     title = title.replaceAll(' ', '+');

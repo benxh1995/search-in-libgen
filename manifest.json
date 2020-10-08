@@ -1,6 +1,10 @@
 {
     "manifest_version": 2,
     "name": "LibGen Download Link",
+    "options_ui": {
+        "page": "options.html",
+        "browser_style": true
+    },
     "author": "Saeed Moghadamzadeh",
     "version": "0.1",
     "description": "An extension to search in LibGen from GoodReads",
@@ -15,7 +19,8 @@
         }
     ],
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "storage"
     ],
     "icons": {
         "16": "icons/icon-16.png",

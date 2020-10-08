@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+
+<body>
+  <p>Selected website: <b id="managed-web">no value found</b></p>
+  <form>
+      <label>Web-url</label>
+      <select id="web">
+        <option value="http://gen.lib.rus.ec/fiction/?q={{TITLE}}">Gen.Lib.Rus.Ec</option>
+        <option value="http://libgen.rs/search.php?req={{TITLE}}&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def">Libgen.RS</option>
+      </select>
+      <button type="submit">Save</button>
+  </form>
+  <script src="options.js"></script>
+</body>
+
+</html>
